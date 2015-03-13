@@ -1,6 +1,15 @@
 # RedAir
 *Bukkit wireless redstone plugin*
 
+-----
+
+## Important Note
+This branch (RedAir/nsme) contains a bug that appears on older versions of the game. *Supposedly*, this supports Bukkit API version 1.8-RO.1-SNAPSHOT and 1.8-RO.1. However, older versions of this do not contain the `Player.getTargetBlock(HashSet<Material> transparentBlocks, int maxDistance);` method that is used in this version of the plugin.
+
+I have kept this branch here since it does work with newer versions but the RedAir/master branch will get the updates.
+
+-----
+
 RedAir provides wireless redstone. Sounds familiar? Sure, there are other plugins that do that. 
 But the great advantage this one has over the others is its simplicity - 
 two commands and you have a wireless redstone connection. It's easy to understand, easy to operate, 
