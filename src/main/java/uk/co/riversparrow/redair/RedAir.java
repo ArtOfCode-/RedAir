@@ -13,7 +13,7 @@ import uk.co.riversparrow.redair.io.MapCache;
 public final class RedAir extends JavaPlugin {
 	private Utils utils;
 	private final String beta = Character.toString((char) 0x3B2);
-	private final String buildNumber = "034" + beta;
+	private final String buildNumber = "036" + beta;
 	private final String formattedName = ChatColor.DARK_RED + "Red" + ChatColor.AQUA + "Air" + ChatColor.RESET;
 
 	@Override
