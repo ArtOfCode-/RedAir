@@ -1,0 +1,14 @@
+name: RedAir
+description: Wireless redstone for Bukkit servers!
+version: 0.07
+main: uk.co.riversparrow.redair.RedAir
+commands:
+  redair:
+    description: Base command for RedAir
+    permission: redair.use
+    permission-message: You don't have the 'redair.use' permission node!
+    usage: /redair
+permissions:
+  redair.use:
+    description: RedAir's basic permission. Allows use of /redair and /redair help.
+    default: true
