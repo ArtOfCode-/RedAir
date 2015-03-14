@@ -20,12 +20,13 @@ There is one command off which all others stem: /redair.
 Running this alone will show a help screen containing all the other commands. Here's a list:
 
 - **`/redair help`** - shows the help screen  
-  Permission: `redair.use`
-- **`/redair start`** - starts making a new wireless connection
-Permission: `redair.create`
-- **`/redair end`** - finishes the wireless connection
-Permission: `redair.create`
-- **`/redair remove`** - removes an existing connection
+  **Permission:** `redair.use`
+- **`/redair start`** - starts making a new wireless connection   
+  **Permission:** `redair.create`
+- **`/redair end`** - finishes the wireless connection  
+  **Permission:** `redair.create`
+- **`/redair remove`** - removes an existing connection  
+  **Permission:** `redair.remove`
 
 ## Planned Updates
 Bugs and known caveats are always top of the priority list to fix up. 
